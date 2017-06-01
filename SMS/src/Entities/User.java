@@ -7,6 +7,7 @@ public class User {
 	private String Password;
 	private String Email;
 	private int Status;
+	private AccessProfiles Access;
 
 	//ID Getters & Setters
 	public int getID(){return this.ID;}
@@ -23,4 +24,7 @@ public class User {
 	//Status Getters & Setters
 	public int getStatus(){return this.Status;}
 	public void setStatus(int Status){this.Status=Status;}
+	//Access Getters & Setters
+	public AccessProfiles getAccess() {return Access;}
+	public void setAccess(AccessProfiles access) {Access = access;}
 }
