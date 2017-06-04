@@ -5,13 +5,6 @@ public class Class {
 	private ClassRoom class_room;
 	private int Teacher_ID;
 	private int student_List[];
-	
-	public Class(ClassRoom class_room, int Teacher_ID,int student_List[]){
-		setClass_room(class_room);
-		setTeacher_ID(Teacher_ID);
-		setStudent_List(student_List);
-	}
-	
 	public ClassRoom getClass_room() {
 		return class_room;
 	}

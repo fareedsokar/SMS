@@ -4,12 +4,6 @@ public class ClassRoom {
 	
 		private int Class_id;
 		private String Class_Name;
-		//Check with DataBase Serialization Numbering
-		public ClassRoom(int class_id,String class_name){
-			setClass_id(class_id);
-			setClass_Name(class_name);
-		}
-		
 		public int getClass_id() {
 			return Class_id;
 		}
