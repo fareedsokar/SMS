@@ -8,18 +8,7 @@ public class User {
 	private String Email;
 	private int Status;
 	private AccessProfiles Access;
-	//Constructor
-	
-	public User(int ID,String Name,String Password,String Email,int Status,AccessProfiles Access)
-	{
-		setID(ID);
-		setName(Name);
-		setPassword(Password);
-		setEmail(Email);
-		setStatus(Status);
-		setAccess(Access);
-	}
-	
+
 	//ID Getters & Setters
 	public int getID(){return this.ID;}
 	public void setID(int id){this.ID=id;}

@@ -5,15 +5,6 @@ public class Semester {
 	private Date endDate;
 	private char semesterLetter;
 	private int semester_id;
-	
-	public Semester(Date startDate,Date endDate,char semesterLetter,int semester_id)
-	{
-		setEndDate(endDate);
-		setStartDate(startDate);
-		setSemesterLetter(semesterLetter);
-		setSemester_id(semester_id);
-	}
-	
 	public Date getEndDate() {
 		return endDate;
 	}

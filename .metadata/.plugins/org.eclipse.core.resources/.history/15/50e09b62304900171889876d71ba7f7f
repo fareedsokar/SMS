@@ -2,19 +2,9 @@ package Entities;
 
 public class Teacher extends User {
 
-	
 	private int TeacherUnit_ID;
 	private float maxLearningHours;
 	private float CurrentLearningHours;
-	
-	public Teacher(int ID, String Name, String Password, String Email, int Status, AccessProfiles Access,int TeacherUnit_ID,float maxLearningHours, float CurrentLearningHours)
-	{
-		super(ID, Name, Password, Email, Status, Access);
-		setCurrentLearningHours(CurrentLearningHours);
-		setTeacherUnit_ID(TeacherUnit_ID);
-		setMaxLearningHours(maxLearningHours);
-	}
-	
 	public float getCurrentLearningHours() {
 		return CurrentLearningHours;
 	}

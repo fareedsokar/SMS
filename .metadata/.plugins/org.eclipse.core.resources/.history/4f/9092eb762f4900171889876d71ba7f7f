@@ -4,13 +4,6 @@ public class TeachUnit {
 	
 	private int TeachUnit_ID;
 	private int TeachUnit_Name;
-	
-	public TeachUnit(int TeachUnit_ID,int TeachUnit_Name)
-	{
-		setTeachUnit_ID(TeachUnit_ID);
-		setTeachUnit_Name(TeachUnit_Name);
-	}
-	
 	public int getTeachUnit_ID() {
 		return TeachUnit_ID;
 	}

@@ -7,15 +7,6 @@ public class Course {
 	private int TeachUnit_ID;
 	private int CourseStudyHours;
 	private int PreCourses[];
-	
-	public Course(int Course_ID,String Course_Name,int TeachUnit_ID,int CourseStudyHours,int PreCourses[])
-	{	
-		setCourse_ID(Course_ID);
-		setCourse_Name(Course_Name);
-		setTeachUnit_ID(TeachUnit_ID);
-		setCourseStudyHours(CourseStudyHours);
-		setPreCourses(PreCourses);
-	}
 	public int getCourse_ID() {
 		return Course_ID;
 	}
