@@ -17,3 +17,7 @@
 1496591880997	Delete element
 1496591891242	Delete element
 1496592066203	Delete element
+1496941508208	Encapsulate field 'Name'
+1496941519415	Encapsulate field 'Type'
+1496941643019	Encapsulate field 'tableNames'
+1496941695505	Encapsulate field 'tableTypes'
