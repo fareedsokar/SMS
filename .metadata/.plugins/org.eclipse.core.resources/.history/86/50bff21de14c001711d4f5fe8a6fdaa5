@@ -1,0 +1,22 @@
+package OurDB;
+
+import java.util.ArrayList;
+
+public class OurTablesBuild {
+
+	OurTable sql=new OurTable();
+	public OurTablesBuild()
+	{
+		//Building a record of our tables
+		ArrayList<tableColumn> arr=new ArrayList<tableColumn>();
+		arr.add(new tableColumn("id","Integer"));
+		arr.add(new tableColumn("Name","String"));
+		arr.add(new tableColumn("Password","String"));
+		arr.add(new tableColumn("Email","String"));
+		arr.add(new tableColumn("Status","Integer"));
+		//arr.add(new ColumnSQL("Access","AccessProfiles"));
+		sql.setIndex(0, "User", arr);
+		//===============================
+	}
+	
+}
