@@ -1,0 +1,9 @@
+package User
+
+import javafx.scene.layout.AnchorPane
+
+component LoginGraph {
+	AnchorPane {
+		//TODO Add Nodes
+	}
+}
